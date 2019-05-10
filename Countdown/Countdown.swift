@@ -34,6 +34,9 @@ class Countdown {
         timer = Timer.scheduledTimer(withTimeInterval: 0.03, repeats: true, block: updateTimer(timer:))
         stopDate = Date(timeIntervalSinceNow: duration)
         state = .started
+        
+            print("change test for commits")
+        
     }
     
     func reset() {
