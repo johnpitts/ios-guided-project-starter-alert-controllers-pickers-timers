@@ -36,6 +36,7 @@ class Countdown {
         state = .started
         
             print("change test for commits")
+        print("change test for pushes to a forked copy of this morning project")
         
     }
     
